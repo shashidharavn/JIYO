@@ -1,0 +1,130 @@
+{
+    "data": [
+             {
+             "controller_title": "Post Feedback With Media",
+             "controller_key": "Post",
+             "items": [
+                       {
+                       "title": "Awesomize",
+                       "text": "Use our filters to make your photo pop!",
+                       "xPos": 0.1,
+                       "yPos": 0.2,
+                       "width": 0.4,
+                       "iconFrame": "{{0.65, 0.055}, {0.05, 0.02}}",
+                       "rightCurve": false,
+                       "app_version": "1.2.6"
+                       },
+                       {
+                       "title": "Tag a User",
+                       "text": "Tag people(@username) you've shared a moment or bit with",
+                       "xPos": 0.5,
+                       "yPos": 0.3,
+                       "width": 0.4,
+                       "iconFrame": "{{0.85, 0.05}, {0.05, 0.02}}",
+                       "rightCurve": true,
+                       "app_version": "1.2.6"
+                       }
+                       ]
+             },
+             {
+             "controller_title": "Post Feedback Without Media",
+             "controller_key": "Post",
+             "items": [
+                       {
+                       "title": "Tag a User",
+                       "text": "Tag people(@username) you've shared a moment or bit with",
+                       "xPos": 0.45,
+                       "yPos": 0.3,
+                       "width": 0.4,
+                       "iconFrame": "{{0.9, 0.05}, {0.05, 0.02}}",
+                       "rightCurve": true,
+                       "app_version": "1.2.6"
+                       }
+                       ]
+             },
+             {
+             "controller_title": "Camera",
+             "controller_key": "Camera",
+             "items": [
+                       {
+                       "title": "Video Share",
+                       "text": "Add a video from your gallery!",
+                       "xPos": 0.7,
+                       "yPos": 0.7,
+                       "width": 0.3,
+                       "iconFrame": "{{0.73, 0.92}, {0.1, 0.1}}",
+                       "rightCurve": true,
+                       "app_version": "1.2.6"
+                       },
+                       {
+                       "title": "Self Timer",
+                       "text": "No one around to take a picture? Our timer will help you get that perfect pose!",
+                       "xPos": 0.3,
+                       "yPos": 0.3,
+                       "width": 0.4,
+                       "iconFrame": "{{0.6, 0.0}, {0.1, 0.05}}",
+                       "rightCurve": false,
+                       "app_version": "1.2.6"
+                       },
+                       {
+                       "title": "Stitch",
+                       "text": "Take multiple shots, we'll stitch it together for you",
+                       "xPos": 0.2,
+                       "yPos": 0.6,
+                       "width": 0.4,
+                       "iconFrame": "{{0.45, 0.9}, {0.1, 0.1}}",
+                       "rightCurve": false,
+                       "app_version": "1.2.6"
+                       }
+                       ]
+             },
+             {
+             "controller_title": "Comments",
+             "controller_key": "Comments",
+             "items": [
+                       {
+                       "title": "Mention a User",
+                       "text": "Mention people(@username) in posts you would like them to see",
+                       "xPos": 0.3,
+                       "yPos": 0.6,
+                       "width": 0.4,
+                       "iconFrame": "{{0.9, 0.95}, {0.1, 0.1}}",
+                       "rightCurve": true,
+                       "app_version": "1.2.6"
+                       }
+                       ]
+             },
+             {
+             "controller_title": "Awesomize Video",
+             "controller_key": "Awesomize",
+             "items": [
+                       {
+                       "title": "Trimming a Video",
+                       "text": "Trim your videos and share it with the community",
+                       "xPos": 0.3,
+                       "yPos": 0.6,
+                       "width": 0.4,
+                       "iconFrame": "{{0.25, 0.92}, {0.1, 0.2}}",
+                       "rightCurve": true,
+                       "app_version": "1.2.6"
+                       }
+                       ]
+             },
+             {
+             "controller_title": "User Profile",
+             "controller_key": "Profile",
+             "items": [
+                       {
+                       "title": "User screenname",
+                       "text": "Choose a username you want! Ready to get creative? Click on your profile picture to edit your username.",
+                       "xPos": 0.25,
+                       "yPos": 0.25,
+                       "width": 0.6,
+                       "iconFrame": "{{0.25, 0.18}, {0.002, 0.005}}",
+                       "rightCurve": false,
+                       "app_version": "1.2.7"
+                       }
+                       ]
+             }
+             ]
+}

@@ -1,0 +1,1529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20161020 11:34:31.035" generator="Robot 3.0 (Python 2.7.12 on darwin)">
+<suite source="/Users/shashidhara/PycharmProjects/JIYO-IOS/jiyoTest01.robot" id="s1" name="jiyoTest01">
+<test id="s1-t1" name="STEP-01-Launch JIYO-IOS app">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.</doc>
+<arguments>
+<arg>${REMOTE_URL}</arg>
+<arg>${APP_LOCATION}</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:34:58.326" starttime="20161020 11:34:31.301"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO01.png</arg>
+</arguments>
+<msg timestamp="20161020 11:35:00.398" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO01.png"&gt;&lt;img src="Screenshots/JIYO01.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:35:00.399" starttime="20161020 11:34:58.329"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:35:00.399" critical="yes" starttime="20161020 11:34:31.301"></status>
+</test>
+<test id="s1-t2" name="STEP-02-JIYO LOGIN">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATextField[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:35:00.402" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATextField[1]'.</msg>
+<status status="PASS" endtime="20161020 11:35:03.758" starttime="20161020 11:35:00.402"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATextField[1]</arg>
+<arg>shashidhara.vn@above-inc.com</arg>
+</arguments>
+<msg timestamp="20161020 11:35:03.761" level="INFO">Typing text 'shashidhara.vn@above-inc.com' into text field 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIATextField[1]'</msg>
+<status status="PASS" endtime="20161020 11:35:19.197" starttime="20161020 11:35:03.760"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIASecureTextField[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:35:19.198" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIASecureTextField[1]'.</msg>
+<status status="PASS" endtime="20161020 11:35:22.588" starttime="20161020 11:35:19.198"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIASecureTextField[1]</arg>
+<arg>Shashi@21</arg>
+</arguments>
+<msg timestamp="20161020 11:35:22.589" level="INFO">Typing text 'Shashi@21' into text field 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIASecureTextField[1]'</msg>
+<status status="PASS" endtime="20161020 11:35:29.740" starttime="20161020 11:35:22.588"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[3]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:35:32.046" starttime="20161020 11:35:29.741"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO02.png</arg>
+</arguments>
+<msg timestamp="20161020 11:35:34.110" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO02.png"&gt;&lt;img src="Screenshots/JIYO02.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:35:34.110" starttime="20161020 11:35:32.046"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[3]</arg>
+</arguments>
+<msg timestamp="20161020 11:35:34.112" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAButton[3]'.</msg>
+<status status="PASS" endtime="20161020 11:35:37.612" starttime="20161020 11:35:34.111"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:35:37.612" critical="yes" starttime="20161020 11:35:00.400"></status>
+</test>
+<test id="s1-t3" name="STEP-03-JIYO DASHBOARD">
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:35:40.826" starttime="20161020 11:35:37.615"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO03.png</arg>
+</arguments>
+<msg timestamp="20161020 11:35:43.037" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO03.png"&gt;&lt;img src="Screenshots/JIYO03.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:35:43.037" starttime="20161020 11:35:40.826"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:35:43.038" critical="yes" starttime="20161020 11:35:37.614"></status>
+</test>
+<test id="s1-t4" name="STEP-04-Navigate to JIYO DISCOVER">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:35:43.039" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:35:52.158" starttime="20161020 11:35:43.039"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:35:55.560" starttime="20161020 11:35:52.158"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO04.png</arg>
+</arguments>
+<msg timestamp="20161020 11:35:57.810" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO04.png"&gt;&lt;img src="Screenshots/JIYO04.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:35:57.810" starttime="20161020 11:35:55.561"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:35:57.811" critical="yes" starttime="20161020 11:35:43.038"></status>
+</test>
+<test id="s1-t5" name="STEP-05-Navigate to JIYO+">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[4]</arg>
+</arguments>
+<msg timestamp="20161020 11:35:57.812" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[4]'.</msg>
+<status status="PASS" endtime="20161020 11:36:01.618" starttime="20161020 11:35:57.812"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:36:08.930" starttime="20161020 11:36:01.618"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO05.png</arg>
+</arguments>
+<msg timestamp="20161020 11:36:11.093" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO05.png"&gt;&lt;img src="Screenshots/JIYO05.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:36:11.093" starttime="20161020 11:36:08.930"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:36:11.094" critical="yes" starttime="20161020 11:35:57.811"></status>
+</test>
+<test id="s1-t6" name="STEP-06-Naviagte to JIYO ME">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:11.096" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]'.</msg>
+<status status="PASS" endtime="20161020 11:36:17.577" starttime="20161020 11:36:11.095"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:36:21.065" starttime="20161020 11:36:17.577"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO06.png</arg>
+</arguments>
+<msg timestamp="20161020 11:36:23.296" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO06.png"&gt;&lt;img src="Screenshots/JIYO06.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:36:23.296" starttime="20161020 11:36:21.065"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:36:23.297" critical="yes" starttime="20161020 11:36:11.094"></status>
+</test>
+<test id="s1-t7" name="STEP-07-Navigate to DASHBOARD">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:23.298" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:36:26.774" starttime="20161020 11:36:23.298"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:36:26.775" critical="yes" starttime="20161020 11:36:23.297"></status>
+</test>
+<test id="s1-t8" name="STEP-08-Reading Bits">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:26.778" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]'.</msg>
+<status status="PASS" endtime="20161020 11:36:32.688" starttime="20161020 11:36:26.778"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAScrollView[1]/UIAWebView[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:36:35.116" starttime="20161020 11:36:32.688"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO07.png</arg>
+</arguments>
+<msg timestamp="20161020 11:36:37.205" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO07.png"&gt;&lt;img src="Screenshots/JIYO07.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:36:37.205" starttime="20161020 11:36:35.116"></status>
+</kw>
+<kw name="Log Source" library="AppiumLibrary">
+<doc>Logs and returns the entire html source of the current page or frame.</doc>
+<arguments>
+<arg>loglevel=INFO</arg>
+</arguments>
+<msg timestamp="20161020 11:36:38.363" level="INFO">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;AppiumAUT&gt;
+    &lt;UIAApplication name="Jiyo" label="Jiyo" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0" x="0" y="0" width="375" height="667"&gt;
+        &lt;UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0" x="0" y="0" width="375" height="667"&gt;
+            &lt;UIANavigationBar name="Jiyo.JYWebView" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0" x="0" y="20" width="375" height="44"&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0" x="0" y="0" width="375" height="64"&gt;
+                    &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/0/0" x="0" y="64" width="375" height="0.5"&gt;
+                    &lt;/UIAImage&gt;
+                &lt;/UIAImage&gt;
+                &lt;UIAButton name="Back" label="Back" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/1" x="8" y="31.5" width="21" height="21"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAButton name="img channels back colored" label="img channels back colored" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/2" x="16" y="31" width="22" height="22"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/0/3" x="77" y="33" width="0" height="0"&gt;
+                &lt;/UIAImage&gt;
+                &lt;UIAStaticText name="Apollo Health Risk Assessment" label="Apollo Health Risk Assessment" value="Apollo Health Risk Assessment" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/0/4" x="77" y="33" width="221.5" height="18.5"&gt;
+                &lt;/UIAStaticText&gt;
+            &lt;/UIANavigationBar&gt;
+            &lt;UIAScrollView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1" x="0" y="0" width="375" height="667"&gt;
+                &lt;UIAWebView name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0" x="0" y="64" width="375" height="667"&gt;
+                    &lt;UIAImage name="" label="" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/0" x="93" y="74" width="191" height="62"&gt;
+                    &lt;/UIAImage&gt;
+                    &lt;UIAStaticText name="Apollo Life&amp;apos;s services encompass various dimensions of wellness, and when combined with its parent company&amp;apos;s - Apollo Hospitals&amp;apos; - inherent strength in health, present a unique perspective in prevention and management of health. The core objective of Apollo Life is to address those mental, emotional, dietary, fitness-related, physical environmental issues that account for most chronic and lifestyle diseases we currently face." label="Apollo Life&amp;apos;s services encompass various dimensions of wellness, and when combined with its parent company&amp;apos;s - Apollo Hospitals&amp;apos; - inherent strength in health, present a unique perspective in prevention and management of health. The core objective of Apollo Life is to address those mental, emotional, dietary, fitness-related, physical environmental issues that account for most chronic and lifestyle diseases we currently face." value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/1" x="25" y="151" width="320" height="177"&gt;
+                    &lt;/UIAStaticText&gt;
+                    &lt;UIAStaticText name="Gender" label="Gender" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/2" x="25" y="351" width="49" height="18"&gt;
+                    &lt;/UIAStaticText&gt;
+                    &lt;UIAElement name="" label="" value="Male" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/3" x="203" y="350" width="148" height="30"&gt;
+                    &lt;/UIAElement&gt;
+                    &lt;UIAStaticText name="Date Of Birth" label="Date Of Birth" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/4" x="25" y="396" width="87" height="18"&gt;
+                    &lt;/UIAStaticText&gt;
+                    &lt;UIAElement name="" label="" value="dob" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/5" x="203" y="395" width="147" height="32"&gt;
+                    &lt;/UIAElement&gt;
+                    &lt;UIAStaticText name="Height (cms)" label="Height (cms)" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/6" x="25" y="443" width="85" height="18"&gt;
+                    &lt;/UIAStaticText&gt;
+                    &lt;UIATextField name="" label="" value="Height" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/7" x="203" y="442" width="148" height="30"&gt;
+                    &lt;/UIATextField&gt;
+                    &lt;UIAStaticText name="Weight (kg)" label="Weight (kg)" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/8" x="25" y="488" width="75" height="18"&gt;
+                    &lt;/UIAStaticText&gt;
+                    &lt;UIATextField name="" label="" value="Weight" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/9" x="203" y="487" width="148" height="30"&gt;
+                    &lt;/UIATextField&gt;
+                    &lt;UIAButton name="Submit" label="Submit" value="" dom="[object Object]" enabled="true" valid="true" visible="true" hint="" path="/0/0/1/0/10" x="116" y="542" width="144" height="30"&gt;
+                    &lt;/UIAButton&gt;
+                &lt;/UIAWebView&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/1" x="369.5" y="67" width="2.5" height="597"&gt;
+                &lt;/UIAImage&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/1/2" x="3" y="661.5" width="369" height="2.5"&gt;
+                &lt;/UIAImage&gt;
+            &lt;/UIAScrollView&gt;
+            &lt;UIATabBar name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2" x="0" y="618" width="375" height="49"&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/0" x="0" y="617.5" width="375" height="0.5"&gt;
+                &lt;/UIAImage&gt;
+                &lt;UIAImage name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/1" x="0" y="618" width="375" height="49"&gt;
+                &lt;/UIAImage&gt;
+                &lt;UIAButton name="" label="" value="1" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/2" x="2" y="619" width="71" height="48"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/3" x="77" y="619" width="71" height="48"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/4" x="152" y="619" width="71" height="48"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/5" x="227" y="619" width="71" height="48"&gt;
+                &lt;/UIAButton&gt;
+                &lt;UIAButton name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/0/2/6" x="302" y="619" width="71" height="48"&gt;
+                &lt;/UIAButton&gt;
+            &lt;/UIATabBar&gt;
+        &lt;/UIAWindow&gt;
+        &lt;UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="false" hint="" path="/0/1" x="0" y="0" width="375" height="667"&gt;
+        &lt;/UIAWindow&gt;
+        &lt;UIAWindow name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2" x="0" y="0" width="375" height="667"&gt;
+            &lt;UIAStatusBar name="" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="" path="/0/2/0" x="0" y="0" width="375" height="20"&gt;
+                &lt;UIAElement name="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" label="" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/0" x="6" y="0" width="39" height="20"&gt;
+                &lt;/UIAElement&gt;
+                &lt;UIAElement name="3 of 3 Wi-Fi bars" label="3 of 3 Wi-Fi bars" value="SSID" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/1" x="50" y="0" width="13" height="20"&gt;
+                &lt;/UIAElement&gt;
+                &lt;UIAElement name="11:36 AM" label="11:36 AM" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/2" x="162" y="0" width="55" height="20"&gt;
+                &lt;/UIAElement&gt;
+                &lt;UIAElement name="-100% battery power" label="-100% battery power" value="" dom="" enabled="true" valid="true" visible="true" hint="Swipe down with three fingers to reveal the notification center., Swipe up with three fingers to reveal the control center, Double-tap to scroll to top" path="/0/2/0/3" x="345" y="0" width="25" height="20"&gt;
+                &lt;/UIAElement&gt;
+            &lt;/UIAStatusBar&gt;
+        &lt;/UIAWindow&gt;
+    &lt;/UIAApplication&gt;
+&lt;/AppiumAUT&gt;</msg>
+<status status="PASS" endtime="20161020 11:36:38.364" starttime="20161020 11:36:37.206"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:38.364" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:36:41.817" starttime="20161020 11:36:38.364"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:36:41.818" critical="yes" starttime="20161020 11:36:26.776"></status>
+</test>
+<test id="s1-t9" name="STEP-09-Search Deepak Chopra Posts">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:41.820" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:36:47.677" starttime="20161020 11:36:41.819"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:36:47.678" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]'.</msg>
+<status status="PASS" endtime="20161020 11:36:53.850" starttime="20161020 11:36:47.678"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</arg>
+<arg>Deepak Chopra</arg>
+</arguments>
+<msg timestamp="20161020 11:36:53.851" level="INFO">Typing text 'Deepak Chopra' into text field 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]'</msg>
+<status status="PASS" endtime="20161020 11:37:05.502" starttime="20161020 11:36:53.850"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:37:05.503" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:37:11.802" starttime="20161020 11:37:05.503"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:37:23.980" starttime="20161020 11:37:11.803"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO08.png</arg>
+</arguments>
+<msg timestamp="20161020 11:37:37.353" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO08.png"&gt;&lt;img src="Screenshots/JIYO08.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:37:37.353" starttime="20161020 11:37:23.980"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:37:37.354" critical="yes" starttime="20161020 11:36:41.818"></status>
+</test>
+<test id="s1-t10" name="STEP-10-Read Deepak Chopra Posts-01">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:37:37.357" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]'.</msg>
+<status status="PASS" endtime="20161020 11:37:47.346" starttime="20161020 11:37:37.356"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:37:49.718" starttime="20161020 11:37:47.347"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO09.png</arg>
+</arguments>
+<msg timestamp="20161020 11:38:02.960" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO09.png"&gt;&lt;img src="Screenshots/JIYO09.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:38:02.960" starttime="20161020 11:37:49.718"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:38:02.961" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:38:07.515" starttime="20161020 11:38:02.961"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:38:07.516" critical="yes" starttime="20161020 11:37:37.355"></status>
+</test>
+<test id="s1-t11" name="STEP-11-Read Deepak Chopra Posts-02">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:38:07.518" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[2]'.</msg>
+<status status="PASS" endtime="20161020 11:38:17.261" starttime="20161020 11:38:07.517"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:38:19.682" starttime="20161020 11:38:17.262"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO10.png</arg>
+</arguments>
+<msg timestamp="20161020 11:38:32.999" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO10.png"&gt;&lt;img src="Screenshots/JIYO10.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:38:32.999" starttime="20161020 11:38:19.682"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:38:33.000" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:38:36.451" starttime="20161020 11:38:32.999"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:38:36.452" critical="yes" starttime="20161020 11:38:07.516"></status>
+</test>
+<test id="s1-t12" name="STEP-12-Read Deepak Chopra Posts-03">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[3]</arg>
+</arguments>
+<msg timestamp="20161020 11:38:36.454" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[3]'.</msg>
+<status status="PASS" endtime="20161020 11:38:46.316" starttime="20161020 11:38:36.454"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:38:48.571" starttime="20161020 11:38:46.326"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO11.png</arg>
+</arguments>
+<msg timestamp="20161020 11:39:01.889" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO11.png"&gt;&lt;img src="Screenshots/JIYO11.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:39:01.889" starttime="20161020 11:38:48.571"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:01.890" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:39:05.463" starttime="20161020 11:39:01.890"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:39:05.464" critical="yes" starttime="20161020 11:38:36.453"></status>
+</test>
+<test id="s1-t13" name="STEP-13-Read Deepak Chopra Posts-04">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:05.466" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]'.</msg>
+<status status="PASS" endtime="20161020 11:39:15.522" starttime="20161020 11:39:05.465"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:39:18.133" starttime="20161020 11:39:15.523"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO12.png</arg>
+</arguments>
+<msg timestamp="20161020 11:39:20.299" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO12.png"&gt;&lt;img src="Screenshots/JIYO12.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:39:20.300" starttime="20161020 11:39:18.134"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:20.301" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:39:23.875" starttime="20161020 11:39:20.300"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:39:23.876" critical="yes" starttime="20161020 11:39:05.464"></status>
+</test>
+<test id="s1-t14" name="STEP-14-Read Deepak Chopra Posts-05">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[5]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:23.878" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[5]'.</msg>
+<status status="PASS" endtime="20161020 11:39:33.843" starttime="20161020 11:39:23.877"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:39:36.020" starttime="20161020 11:39:33.844"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO13.png</arg>
+</arguments>
+<msg timestamp="20161020 11:39:49.384" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO13.png"&gt;&lt;img src="Screenshots/JIYO13.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:39:49.384" starttime="20161020 11:39:36.021"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:49.385" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:39:52.618" starttime="20161020 11:39:49.385"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:39:52.619" critical="yes" starttime="20161020 11:39:23.876"></status>
+</test>
+<test id="s1-t15" name="STEP-15-Read Deepak Chopra Posts-06">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[6]</arg>
+</arguments>
+<msg timestamp="20161020 11:39:52.621" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[6]'.</msg>
+<status status="PASS" endtime="20161020 11:40:02.884" starttime="20161020 11:39:52.621"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:40:05.212" starttime="20161020 11:40:02.885"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO14.png</arg>
+</arguments>
+<msg timestamp="20161020 11:40:18.545" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO14.png"&gt;&lt;img src="Screenshots/JIYO14.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:40:18.546" starttime="20161020 11:40:05.212"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:40:18.546" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:40:25.499" starttime="20161020 11:40:18.546"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:40:25.500" critical="yes" starttime="20161020 11:39:52.619"></status>
+</test>
+<test id="s1-t16" name="STEP-16-Read Deepak Chopra Posts-07">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[7]</arg>
+</arguments>
+<msg timestamp="20161020 11:40:25.502" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[7]'.</msg>
+<status status="PASS" endtime="20161020 11:40:35.200" starttime="20161020 11:40:25.502"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:40:37.497" starttime="20161020 11:40:35.202"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO15.png</arg>
+</arguments>
+<msg timestamp="20161020 11:40:50.922" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO15.png"&gt;&lt;img src="Screenshots/JIYO15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:40:50.923" starttime="20161020 11:40:37.497"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:40:50.924" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:40:54.334" starttime="20161020 11:40:50.923"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:40:54.335" critical="yes" starttime="20161020 11:40:25.500"></status>
+</test>
+<test id="s1-t17" name="STEP-17-Read Deepak Chopra Posts-08">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[8]</arg>
+</arguments>
+<msg timestamp="20161020 11:40:54.340" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[8]'.</msg>
+<status status="PASS" endtime="20161020 11:41:04.021" starttime="20161020 11:40:54.339"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:41:06.379" starttime="20161020 11:41:04.021"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO16.png</arg>
+</arguments>
+<msg timestamp="20161020 11:41:19.628" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO16.png"&gt;&lt;img src="Screenshots/JIYO16.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:41:19.628" starttime="20161020 11:41:06.380"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:41:19.629" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:41:23.285" starttime="20161020 11:41:19.628"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:41:23.285" critical="yes" starttime="20161020 11:40:54.337"></status>
+</test>
+<test id="s1-t18" name="STEP-18-Read Deepak Chopra Posts-09">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[9]</arg>
+</arguments>
+<msg timestamp="20161020 11:41:23.288" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[9]'.</msg>
+<status status="PASS" endtime="20161020 11:41:33.644" starttime="20161020 11:41:23.288"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:41:35.985" starttime="20161020 11:41:33.652"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO17.png</arg>
+</arguments>
+<msg timestamp="20161020 11:41:49.700" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO17.png"&gt;&lt;img src="Screenshots/JIYO17.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:41:49.704" starttime="20161020 11:41:35.986"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:41:49.710" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:41:53.302" starttime="20161020 11:41:49.708"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:41:53.304" critical="yes" starttime="20161020 11:41:23.286"></status>
+</test>
+<test id="s1-t19" name="STEP-19-Read Deepak Chopra Posts-10">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[10]</arg>
+</arguments>
+<msg timestamp="20161020 11:41:53.311" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[10]'.</msg>
+<status status="PASS" endtime="20161020 11:42:03.636" starttime="20161020 11:41:53.311"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:42:05.628" starttime="20161020 11:42:03.637"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO18.png</arg>
+</arguments>
+<msg timestamp="20161020 11:42:18.981" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO18.png"&gt;&lt;img src="Screenshots/JIYO18.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:42:18.981" starttime="20161020 11:42:05.629"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:42:18.982" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:42:22.325" starttime="20161020 11:42:18.982"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:42:22.326" critical="yes" starttime="20161020 11:41:53.309"></status>
+</test>
+<test id="s1-t20" name="STEP-20-Read Deepak Chopra Posts-11">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[11]</arg>
+</arguments>
+<msg timestamp="20161020 11:42:22.330" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[11]'.</msg>
+<status status="PASS" endtime="20161020 11:42:32.037" starttime="20161020 11:42:22.330"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:42:34.869" starttime="20161020 11:42:32.041"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO19.png</arg>
+</arguments>
+<msg timestamp="20161020 11:42:48.212" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO19.png"&gt;&lt;img src="Screenshots/JIYO19.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:42:48.212" starttime="20161020 11:42:34.869"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:42:48.213" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:42:51.957" starttime="20161020 11:42:48.213"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:42:51.958" critical="yes" starttime="20161020 11:42:22.328"></status>
+</test>
+<test id="s1-t21" name="STEP-21-Read Deepak Chopra Posts-12">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[12]</arg>
+</arguments>
+<msg timestamp="20161020 11:42:51.962" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[12]'.</msg>
+<status status="PASS" endtime="20161020 11:43:01.943" starttime="20161020 11:42:51.961"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:43:04.192" starttime="20161020 11:43:01.946"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO20.png</arg>
+</arguments>
+<msg timestamp="20161020 11:43:17.878" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO20.png"&gt;&lt;img src="Screenshots/JIYO20.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:43:17.882" starttime="20161020 11:43:04.192"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:43:17.892" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:43:21.462" starttime="20161020 11:43:17.888"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:43:21.463" critical="yes" starttime="20161020 11:42:51.959"></status>
+</test>
+<test id="s1-t22" name="STEP-22-Read Deepak Chopra Posts-13">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[13]</arg>
+</arguments>
+<msg timestamp="20161020 11:43:21.465" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[13]'.</msg>
+<status status="PASS" endtime="20161020 11:43:31.604" starttime="20161020 11:43:21.465"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:43:34.028" starttime="20161020 11:43:31.605"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO21.png</arg>
+</arguments>
+<msg timestamp="20161020 11:43:36.150" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO21.png"&gt;&lt;img src="Screenshots/JIYO21.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:43:36.150" starttime="20161020 11:43:34.028"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:43:36.151" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:43:39.629" starttime="20161020 11:43:36.151"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:43:39.630" critical="yes" starttime="20161020 11:43:21.463"></status>
+</test>
+<test id="s1-t23" name="STEP-23-Read Deepak Chopra Posts-14">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]</arg>
+</arguments>
+<msg timestamp="20161020 11:43:39.632" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]'.</msg>
+<status status="PASS" endtime="20161020 11:43:49.400" starttime="20161020 11:43:39.632"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:43:52.332" starttime="20161020 11:43:49.401"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO22.png</arg>
+</arguments>
+<msg timestamp="20161020 11:44:05.904" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO22.png"&gt;&lt;img src="Screenshots/JIYO22.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:44:05.904" starttime="20161020 11:43:52.337"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:05.905" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:44:09.727" starttime="20161020 11:44:05.905"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:44:09.728" critical="yes" starttime="20161020 11:43:39.630"></status>
+</test>
+<test id="s1-t24" name="STEP-24-Read Deepak Chopra Posts-15">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[15]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:09.745" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[15]'.</msg>
+<status status="PASS" endtime="20161020 11:44:19.841" starttime="20161020 11:44:09.745"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:44:22.159" starttime="20161020 11:44:19.847"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO23.png</arg>
+</arguments>
+<msg timestamp="20161020 11:44:35.531" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO23.png"&gt;&lt;img src="Screenshots/JIYO23.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:44:35.531" starttime="20161020 11:44:22.159"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:35.532" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:44:38.875" starttime="20161020 11:44:35.531"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:44:38.876" critical="yes" starttime="20161020 11:44:09.741"></status>
+</test>
+<test id="s1-t25" name="STEP-25-Navigate to DASHBOARD">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:38.882" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:44:49.095" starttime="20161020 11:44:38.882"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:44:49.095" critical="yes" starttime="20161020 11:44:38.880"></status>
+</test>
+<test id="s1-t26" name="STEP-26-Search Poonacha Machaiah Posts">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:49.097" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:44:55.610" starttime="20161020 11:44:49.097"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:44:55.610" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]'.</msg>
+<status status="PASS" endtime="20161020 11:45:04.078" starttime="20161020 11:44:55.610"></status>
+</kw>
+<kw name="Input Text" library="AppiumLibrary">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]</arg>
+<arg>Poonacha Machaiah</arg>
+</arguments>
+<msg timestamp="20161020 11:45:04.085" level="INFO">Typing text 'Poonacha Machaiah' into text field 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATextField[1]'</msg>
+<status status="PASS" endtime="20161020 11:45:23.511" starttime="20161020 11:45:04.083"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:45:23.513" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:45:30.836" starttime="20161020 11:45:23.512"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:45:35.725" starttime="20161020 11:45:30.837"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO24.png</arg>
+</arguments>
+<msg timestamp="20161020 11:45:49.207" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO24.png"&gt;&lt;img src="Screenshots/JIYO24.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:45:49.207" starttime="20161020 11:45:35.726"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:45:49.208" critical="yes" starttime="20161020 11:44:49.096"></status>
+</test>
+<test id="s1-t27" name="STEP-27-Read Poonacha Machaiah Posts-01">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:45:49.213" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[1]'.</msg>
+<status status="PASS" endtime="20161020 11:45:53.752" starttime="20161020 11:45:49.213"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:45:55.899" starttime="20161020 11:45:53.753"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO25.png</arg>
+</arguments>
+<msg timestamp="20161020 11:46:09.501" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO25.png"&gt;&lt;img src="Screenshots/JIYO25.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:46:09.501" starttime="20161020 11:45:55.900"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:09.503" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:46:14.250" starttime="20161020 11:46:09.502"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:46:14.251" critical="yes" starttime="20161020 11:45:49.211"></status>
+</test>
+<test id="s1-t28" name="STEP-28-Read Poonacha Machaiah Posts-02">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:14.254" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[2]'.</msg>
+<status status="PASS" endtime="20161020 11:46:18.967" starttime="20161020 11:46:14.254"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:46:22.074" starttime="20161020 11:46:18.968"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO26.png</arg>
+</arguments>
+<msg timestamp="20161020 11:46:25.345" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO26.png"&gt;&lt;img src="Screenshots/JIYO26.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:46:25.345" starttime="20161020 11:46:22.074"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:25.347" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:46:29.137" starttime="20161020 11:46:25.346"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:46:29.137" critical="yes" starttime="20161020 11:46:14.253"></status>
+</test>
+<test id="s1-t29" name="STEP-29-Read Poonacha Machaiah Posts-03">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[3]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:29.139" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[3]'.</msg>
+<status status="PASS" endtime="20161020 11:46:33.448" starttime="20161020 11:46:29.139"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:46:35.554" starttime="20161020 11:46:33.450"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO27.png</arg>
+</arguments>
+<msg timestamp="20161020 11:46:37.788" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO27.png"&gt;&lt;img src="Screenshots/JIYO27.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:46:37.789" starttime="20161020 11:46:35.555"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:37.790" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:46:41.500" starttime="20161020 11:46:37.789"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:46:41.500" critical="yes" starttime="20161020 11:46:29.138"></status>
+</test>
+<test id="s1-t30" name="STEP-30-Read Poonacha Machaiah Posts-04">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:41.502" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]'.</msg>
+<status status="PASS" endtime="20161020 11:46:45.747" starttime="20161020 11:46:41.502"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:46:48.062" starttime="20161020 11:46:45.747"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO28.png</arg>
+</arguments>
+<msg timestamp="20161020 11:46:50.183" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO28.png"&gt;&lt;img src="Screenshots/JIYO28.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:46:50.184" starttime="20161020 11:46:48.063"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:50.184" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:46:54.004" starttime="20161020 11:46:50.184"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:46:54.004" critical="yes" starttime="20161020 11:46:41.501"></status>
+</test>
+<test id="s1-t31" name="STEP-31-Read Poonacha Machaiah Posts-04">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]</arg>
+</arguments>
+<msg timestamp="20161020 11:46:54.007" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[4]'.</msg>
+<status status="PASS" endtime="20161020 11:46:58.965" starttime="20161020 11:46:54.006"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:47:01.083" starttime="20161020 11:46:58.968"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO29.png</arg>
+</arguments>
+<msg timestamp="20161020 11:47:14.908" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO29.png"&gt;&lt;img src="Screenshots/JIYO29.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:47:14.912" starttime="20161020 11:47:01.083"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:47:14.928" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:47:18.785" starttime="20161020 11:47:14.926"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:47:18.786" critical="yes" starttime="20161020 11:46:54.005"></status>
+</test>
+<test id="s1-t32" name="STEP-32-Read Poonacha Machaiah Posts-05">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[5]</arg>
+</arguments>
+<msg timestamp="20161020 11:47:18.793" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[5]'.</msg>
+<status status="PASS" endtime="20161020 11:47:23.985" starttime="20161020 11:47:18.793"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:47:26.489" starttime="20161020 11:47:23.986"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO30.png</arg>
+</arguments>
+<msg timestamp="20161020 11:47:40.299" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO30.png"&gt;&lt;img src="Screenshots/JIYO30.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:47:40.309" starttime="20161020 11:47:26.490"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:47:40.317" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:47:44.110" starttime="20161020 11:47:40.314"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:47:44.111" critical="yes" starttime="20161020 11:47:18.790"></status>
+</test>
+<test id="s1-t33" name="STEP-33-Read Poonacha Machaiah Posts-06">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[6]</arg>
+</arguments>
+<msg timestamp="20161020 11:47:44.116" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[6]'.</msg>
+<status status="PASS" endtime="20161020 11:47:49.982" starttime="20161020 11:47:44.115"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:47:52.842" starttime="20161020 11:47:49.982"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO31.png</arg>
+</arguments>
+<msg timestamp="20161020 11:48:06.446" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO31.png"&gt;&lt;img src="Screenshots/JIYO31.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:48:06.446" starttime="20161020 11:47:52.842"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:06.447" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:48:09.839" starttime="20161020 11:48:06.447"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:48:09.841" critical="yes" starttime="20161020 11:47:44.114"></status>
+</test>
+<test id="s1-t34" name="STEP-34-Read Poonacha Machaiah Posts-07">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[7]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:09.844" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[7]'.</msg>
+<status status="PASS" endtime="20161020 11:48:16.104" starttime="20161020 11:48:09.843"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:48:19.232" starttime="20161020 11:48:16.106"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO32.png</arg>
+</arguments>
+<msg timestamp="20161020 11:48:21.321" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO32.png"&gt;&lt;img src="Screenshots/JIYO32.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:48:21.322" starttime="20161020 11:48:19.232"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:21.323" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:48:25.056" starttime="20161020 11:48:21.322"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:48:25.057" critical="yes" starttime="20161020 11:48:09.842"></status>
+</test>
+<test id="s1-t35" name="STEP-35-Read Poonacha Machaiah Posts-08">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[8]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:25.061" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[8]'.</msg>
+<status status="PASS" endtime="20161020 11:48:30.945" starttime="20161020 11:48:25.060"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:48:33.824" starttime="20161020 11:48:30.945"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO33.png</arg>
+</arguments>
+<msg timestamp="20161020 11:48:36.081" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO33.png"&gt;&lt;img src="Screenshots/JIYO33.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:48:36.081" starttime="20161020 11:48:33.825"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:36.082" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:48:39.516" starttime="20161020 11:48:36.082"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:48:39.517" critical="yes" starttime="20161020 11:48:25.059"></status>
+</test>
+<test id="s1-t36" name="STEP-36-Read Poonacha Machaiah Posts-09">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[9]</arg>
+</arguments>
+<msg timestamp="20161020 11:48:39.527" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[9]'.</msg>
+<status status="PASS" endtime="20161020 11:48:45.201" starttime="20161020 11:48:39.527"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:48:47.569" starttime="20161020 11:48:45.202"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO34.png</arg>
+</arguments>
+<msg timestamp="20161020 11:49:00.920" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO34.png"&gt;&lt;img src="Screenshots/JIYO34.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:49:00.920" starttime="20161020 11:48:47.569"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:00.921" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:49:05.203" starttime="20161020 11:49:00.920"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:49:05.204" critical="yes" starttime="20161020 11:48:39.517"></status>
+</test>
+<test id="s1-t37" name="STEP-38-Read Poonacha Machaiah Posts-10">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[10]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:05.211" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[10]'.</msg>
+<status status="PASS" endtime="20161020 11:49:10.887" starttime="20161020 11:49:05.210"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:49:13.220" starttime="20161020 11:49:10.890"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO35.png</arg>
+</arguments>
+<msg timestamp="20161020 11:49:26.641" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO35.png"&gt;&lt;img src="Screenshots/JIYO35.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:49:26.641" starttime="20161020 11:49:13.220"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:26.642" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:49:30.384" starttime="20161020 11:49:26.642"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:49:30.384" critical="yes" starttime="20161020 11:49:05.206"></status>
+</test>
+<test id="s1-t38" name="STEP-39-Read Poonacha Machaiah Posts-11">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[11]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:30.388" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[11]'.</msg>
+<status status="PASS" endtime="20161020 11:49:35.884" starttime="20161020 11:49:30.388"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:49:39.867" starttime="20161020 11:49:35.885"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO36.png</arg>
+</arguments>
+<msg timestamp="20161020 11:49:53.485" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO36.png"&gt;&lt;img src="Screenshots/JIYO36.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:49:53.489" starttime="20161020 11:49:39.867"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:53.510" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:49:57.012" starttime="20161020 11:49:53.508"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:49:57.013" critical="yes" starttime="20161020 11:49:30.385"></status>
+</test>
+<test id="s1-t39" name="STEP-40-Read Poonacha Machaiah Posts-12">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[12]</arg>
+</arguments>
+<msg timestamp="20161020 11:49:57.027" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[12]'.</msg>
+<status status="PASS" endtime="20161020 11:50:02.403" starttime="20161020 11:49:57.026"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:50:05.269" starttime="20161020 11:50:02.405"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO37.png</arg>
+</arguments>
+<msg timestamp="20161020 11:50:18.561" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO37.png"&gt;&lt;img src="Screenshots/JIYO37.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:50:18.561" starttime="20161020 11:50:05.270"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:50:18.562" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:50:22.023" starttime="20161020 11:50:18.561"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:50:22.024" critical="yes" starttime="20161020 11:49:57.023"></status>
+</test>
+<test id="s1-t40" name="STEP-41-Read Poonacha Machaiah Posts-13">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[13]</arg>
+</arguments>
+<msg timestamp="20161020 11:50:22.026" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[13]'.</msg>
+<status status="PASS" endtime="20161020 11:50:27.548" starttime="20161020 11:50:22.025"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:50:30.040" starttime="20161020 11:50:27.549"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO38.png</arg>
+</arguments>
+<msg timestamp="20161020 11:50:32.251" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO38.png"&gt;&lt;img src="Screenshots/JIYO38.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:50:32.252" starttime="20161020 11:50:30.041"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:50:32.253" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:50:35.792" starttime="20161020 11:50:32.252"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:50:35.793" critical="yes" starttime="20161020 11:50:22.024"></status>
+</test>
+<test id="s1-t41" name="STEP-42-Read Poonacha Machaiah Posts-14">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]</arg>
+</arguments>
+<msg timestamp="20161020 11:50:35.795" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]'.</msg>
+<status status="PASS" endtime="20161020 11:50:41.358" starttime="20161020 11:50:35.795"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:50:43.640" starttime="20161020 11:50:41.359"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO39.png</arg>
+</arguments>
+<msg timestamp="20161020 11:50:56.893" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO39.png"&gt;&lt;img src="Screenshots/JIYO39.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:50:56.893" starttime="20161020 11:50:43.640"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:50:56.894" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:51:00.887" starttime="20161020 11:50:56.894"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:51:00.888" critical="yes" starttime="20161020 11:50:35.794"></status>
+</test>
+<test id="s1-t42" name="STEP-43-Read Poonacha Machaiah Posts-15">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[15]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:00.909" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[15]'.</msg>
+<status status="PASS" endtime="20161020 11:51:06.533" starttime="20161020 11:51:00.894"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="AppiumLibrary">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[4]</arg>
+</arguments>
+<status status="PASS" endtime="20161020 11:51:08.840" starttime="20161020 11:51:06.534"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=/Users/shashidhara/PycharmProjects/JIYO-IOS/Screenshots/JIYO40.png</arg>
+</arguments>
+<msg timestamp="20161020 11:51:22.446" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="Screenshots/JIYO40.png"&gt;&lt;img src="Screenshots/JIYO40.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20161020 11:51:22.447" starttime="20161020 11:51:08.841"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:22.447" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIANavigationBar[1]/UIAButton[2]'.</msg>
+<status status="PASS" endtime="20161020 11:51:26.103" starttime="20161020 11:51:22.447"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:51:26.103" critical="yes" starttime="20161020 11:51:00.890"></status>
+</test>
+<test id="s1-t43" name="STEP-44-LOGOUT">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:26.105" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIATabBar[1]/UIAButton[5]'.</msg>
+<status status="PASS" endtime="20161020 11:51:31.341" starttime="20161020 11:51:26.105"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[5]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:31.342" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAButton[5]'.</msg>
+<status status="PASS" endtime="20161020 11:51:35.359" starttime="20161020 11:51:31.342"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:35.360" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIACollectionView[1]/UIACollectionCell[14]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:51:38.977" starttime="20161020 11:51:35.360"></status>
+</kw>
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>xpath=//UIAApplication[1]/UIAWindow[1]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]/UIAButton[1]</arg>
+</arguments>
+<msg timestamp="20161020 11:51:38.984" level="INFO">Clicking element 'xpath=//UIAApplication[1]/UIAWindow[1]/UIAAlert[1]/UIACollectionView[1]/UIACollectionCell[1]/UIAButton[1]'.</msg>
+<status status="PASS" endtime="20161020 11:51:45.062" starttime="20161020 11:51:38.977"></status>
+</kw>
+<status status="PASS" endtime="20161020 11:51:45.072" critical="yes" starttime="20161020 11:51:26.104"></status>
+</test>
+<status status="PASS" endtime="20161020 11:51:45.113" starttime="20161020 11:34:31.038"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="43">Critical Tests</stat>
+<stat fail="0" pass="43">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="jiyoTest01" pass="43">jiyoTest01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

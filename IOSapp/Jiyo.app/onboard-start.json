@@ -1,0 +1,110 @@
+{
+    "success": true,
+    "message": "success",
+    "version": "0.4",
+    "meta": {
+        "utc": 1459763550,
+        "tm": "2016-04-04 09:52:30",
+        "has_user": false,
+        "exec": 1.7759330272675,
+        "_extra_count": 0
+    },
+    "data": [{
+             "screen": "screen_1",
+             "deepak_message": "Bla bla",
+             "title": "Intro Screen",
+             "next": "screen_2",
+             "skip": "screen_4",
+             "version": "1",
+             "image": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_01_20\/g_000000000005_000000000000019217_W_320.jpg"
+             }, {
+             "screen": "screen_2",
+             "deepak_message": "Bla Bla",
+             "experts": [{
+                         "name": "Deepak Chopra, M.D.",
+                         "specialization": "Wellbeing",
+                         "profile_image": {
+                         "aspect_ratio": 1,
+                         "preview": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016371_W_320.jpg",
+                         "color": "#c89991",
+                         "media_id": 16371,
+                         "complete": true,
+                         "type": "image",
+                         "content": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016371_W_640.jpg",
+                         "source": "jiyo"
+                         }
+                         }, {
+                         "name": "Sarah Platt-Finger",
+                         "specialization": "Yoga",
+                         "profile_image": {
+                         "aspect_ratio": 1,
+                         "preview": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016389_W_320.jpg",
+                         "color": "#fd569c",
+                         "media_id": 16389,
+                         "complete": true,
+                         "type": "image",
+                         "content": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016389_W_640.jpg",
+                         "source": "jiyo"
+                         }
+                         }, {
+                         "name": "Dr.Suhas Kshirsagar (Ayurveda)",
+                         "specialization": "Ayurveda",
+                         "profile_image": {
+                         "aspect_ratio": 1,
+                         "preview": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016381_W_320.jpg",
+                         "color": "#6d3f30",
+                         "media_id": 16381,
+                         "complete": true,
+                         "type": "image",
+                         "content": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016381_W_640.jpg",
+                         "source": "jiyo"
+                         }
+                         }, {
+                         "name": "Gina Murdock",
+                         "specialization": "Yoga",
+                         "profile_image": {
+                         "aspect_ratio": 1,
+                         "preview": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016385_W_320.jpg",
+                         "color": "#f1b3ca",
+                         "media_id": 16385,
+                         "complete": true,
+                         "type": "image",
+                         "content": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016385_W_640.jpg",
+                         "source": "jiyo"
+                         }
+                         }, {
+                         "name": "Kimberly Snyder, CN",
+                         "specialization": "Nutrition",
+                         "profile_image": {
+                         "aspect_ratio": 1,
+                         "preview": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016375_W_320.jpg",
+                         "color": "#e9b8a9",
+                         "media_id": 16375,
+                         "complete": true,
+                         "type": "image",
+                         "content": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_03_28\/g_000000000005_000000000000016375_W_640.jpg",
+                         "source": "jiyo"
+                         }
+                         }],
+             "title": "Expert Intro",
+             "next": "screen_3",
+             "skip": "screen_4",
+             "version": "1",
+             "image": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_01_20\/g_000000000005_000000000000019217_W_320.jpg"
+             }, {
+             "screen": "screen_3",
+             "deepak_message": "Bla Bla",
+             "title": "Cards Intro",
+             "next": "screen_4",
+             "skip": "screen_4",
+             "version": "1",
+             "image": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_01_20\/g_000000000005_000000000000019217_W_320.jpg"
+             }, {
+             "screen": "screen_4",
+             "title": "Signup",
+             "next": null,
+             "skip": null,
+             "version": "1",
+             "image": "https:\/\/d2ocu1m4j8oest.cloudfront.net\/media\/d6e4a9b\/005\/000\/000\/000\/2016_01_20\/g_000000000005_000000000000019217_W_320.jpg"
+             }]
+}
